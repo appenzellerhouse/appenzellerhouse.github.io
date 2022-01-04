@@ -1,4 +1,4 @@
-# appenzellerhouse.github.io
+# [appenzellerhouse.github.io](https://appenzellerhouse.github.io)
 
 ### **_"The Good Life"_**
 
