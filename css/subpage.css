@@ -1,0 +1,179 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html body {
+    padding:0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    overflow-x: hidden;
+    font-family: nimbus-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    color: #606060;  
+}
+
+body {
+	font-family: 'Roboto';
+	padding: 0;
+	margin: 0;
+    overflow: auto;
+}
+
+p {
+    font-size: 1.125em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    height: 15vh;
+    background-color: white;
+}
+
+.navbar-toggler {
+    color: #606060;
+}
+
+.nav-link {
+    color: #606060;
+    font-size: 1.25em;
+    font-family: nimbus-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-item {
+    padding: 1em 2em;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: #35A8E0;
+}
+
+.navbar-collapse {
+    text-align: left;
+}
+
+.navbar-logo {
+    height: 120px;
+}
+
+.navbar-logo img {
+    height: 120px;
+    padding: 1em 2em;
+}
+
+.blank {
+    height: 5vh;
+    width: 100vw;
+}
+
+.logo {
+    display: none;
+}
+
+.logo img {
+    height: 15vh;
+}
+
+.navbar-brand, .hidden {
+    display: none;
+}
+
+.splashSM img {
+    height: 80vh;
+}
+
+header {
+    height: 50vh;
+    background-image: url("../img/sampleImg/05-full.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.HeaderContent {
+    padding-top: 30vh;
+    color: #35A8E0;
+    text-shadow: 0 0 10px black;
+    background-color: rgba(96, 96, 96, 0.75);
+    height: 50vh;
+}
+
+h2 i {
+    font-size: 0.5em;
+}
+
+#navrep {
+    position: relative;
+	text-align: center;
+    height: 50vh;
+    background-color: white;
+}
+
+.spacer {
+    height: 10vh;
+}
+
+.spacerhalf {
+    height: 5vh;
+}
+
+.col-element img {
+    object-fit: cover;
+    width: 30vw;
+    height: 30vw;
+}
+
+footer {
+    background-color: #606060;
+    color: white;
+    display: block;
+    position: relative;
+    z-index: 999;
+    padding: 4vh;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar-logo, .hide {
+        display: none;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-brand, .hidden {
+        display: block;
+    }
+
+    .nav-item {
+        padding: 0;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .HeaderContent {
+        padding-top: 20vh;
+    }
+
+    .col-element img {
+        width: 92.5vw;
+        height: 92.5vw;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) and (min-width: 800px) {
+    .mx-auto {
+        display: none;
+    }
+}

@@ -1,0 +1,48 @@
+.navbar-collapse {
+    text-align: left;
+}
+
+.navbar-logo {
+    height: 120px;
+}
+
+.navbar-logo img {
+    height: 120px;
+    padding: 1em 2em;
+}
+
+.blank {
+    height: 5vh;
+    width: 100vw;
+}
+
+.logo {
+    display: none;
+}
+
+.logo img {
+    height: 15vh;
+}
+
+.navbar-brand, .hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-logo, .hide {
+        display: none;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-brand, .hidden {
+        display: block;
+    }
+
+    .nav-item {
+        padding: 0;
+    }
+    
+}
