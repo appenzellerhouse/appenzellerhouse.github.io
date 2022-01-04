@@ -88,6 +88,7 @@ h1 {
 header {
     position: relative;
     text-align: center;
+    display: block;
     background-color: rgba(255, 255, 255, 0.75);
     height: 100vh;
 }
