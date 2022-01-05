@@ -28,7 +28,7 @@ h1 {
 
 .navbar {
     height: 15vh;
-    background-color: #35A8E0;
+    background-color: transparent;
 }
 
 .navbar-toggler {
@@ -93,6 +93,74 @@ header {
     height: 100vh;
 }
 
+.headinger {
+    position: relative;
+    text-align: center;
+    display: block;
+    background-color: rgba(53, 168, 224, 0.75);
+    height: 100vh;
+}
+
+.timer {
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.timer h1 {
+    font-size: 6rem;
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    25% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    60% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    100% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes breathing {
+    0% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    25% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    60% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    100% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  
+
 header img {
     padding-top: 30vh;
 }
@@ -147,7 +215,10 @@ footer {
     .logo {
         display: block;
     }
-    
+  
+    .timer h1 {
+        font-size: 4rem;
+    }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 800px) {
