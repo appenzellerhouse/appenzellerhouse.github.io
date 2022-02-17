@@ -124,10 +124,18 @@ h2 i {
     height: 5vh;
 }
 
+.col-element {
+    height: auto;
+}
+
 .col-element img {
     object-fit: cover;
     width: 30vw;
     height: 30vw;
+}
+
+#rclogo {
+    height: auto;
 }
 
 footer {
@@ -163,6 +171,12 @@ footer {
 
     .HeaderContent {
         padding-top: 20vh;
+    }
+
+    .col-element {
+        height: auto;
+        display: block;
+        position: static;
     }
 
     .col-element img {
