@@ -134,6 +134,10 @@ h2 i {
     height: 30vw;
 }
 
+.content {
+    width: 80vw;
+}
+
 #rclogo {
     height: auto;
 }
@@ -145,6 +149,11 @@ footer {
     position: relative;
     z-index: 999;
     padding: 4vh;
+}
+
+footer > .container > .row > .col > a {
+    text-emphasis-color: white; 
+    color:white; 
 }
 
 @media only screen and (max-width: 768px) {
