@@ -26,6 +26,11 @@
     height: 30vh;
 }
 
+.team-img {
+    display: flex;
+    justify-content: center;
+}
+
 .team-hover {
     position: absolute;
     top: 0;
