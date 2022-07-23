@@ -90,7 +90,7 @@ h1 {
 }
 
 header {
-    height: 50vh;
+    height: 30vh;
     background-image: url("../img/sampleImg/05-full.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -176,6 +176,10 @@ footer > .container > .row > .col > a {
 
     .logo {
         display: block;
+    }
+
+    header {
+        height: 40vh;
     }
 
     .HeaderContent {
