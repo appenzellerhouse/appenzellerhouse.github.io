@@ -12,23 +12,23 @@
     text-transform: uppercase;
 }
 
-.team-member, .team-member .team-img {
+.team-img {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member, .team-member {
     position: relative;
 }
 .team-member {
     overflow: hidden;
 }
-.team-member, .team-member .team-img {
+.team-member, .team-member {
     position: relative;
 }
 
 .team-img img {
     height: 30vh;
-}
-
-.team-img {
-    display: flex;
-    justify-content: center;
 }
 
 .team-hover {
